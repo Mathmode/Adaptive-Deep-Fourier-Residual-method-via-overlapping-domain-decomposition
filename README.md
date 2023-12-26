@@ -12,6 +12,17 @@ This repository contains the source code implementation associated with the pape
 
 ## Abstract
 
+The Deep Fourier Residual (DFR) method is a specific case of Variational Physics-Informed Neural Networks (VPINN) among a wide range of strategies for solving PDEs using Neural Networks (NNs). In the DFR method the loss function is an approximation to the dual norm of the weak residual of the PDE. This loss function ensures that reducing the loss during the training of an NN is equivalent to reducing the error in the solution at the same rate. In previous works, the calculation of the dual norm is based on a spectral representation of the dual norms of the test function space on rectangles in 2D or rectangular cuboids in 3D. Here, we propose an extension of the DFR method to use adaptive strategies on general polygonal domains. We decompose the PDE domain Ω into rectangular subdomains, and the loss function is computed as the sum of local loss functions. We use the Dofler marking algorithm to adaptively refine the initial subdomain decomposition of Ω and increase the accuracy of the approximated solution on relevant regions of the domain. Our numerical results show the generation of refined meshes on 1D and 2D problems, including the singular L-shape problem.
+
+## References 
+
+**Deep Fourier Residual method for solving time-harmonic Maxwell's equations**
+https://arxiv.org/abs/2305.09578
+
+**A Deep Fourier Residual Method for solving PDEs using Neural Networks**
+https://arxiv.org/abs/2210.14129
+
+
 
 ## Requirements
 
@@ -34,7 +45,7 @@ The function $u^*$ is smooth but is mostly constant near the boundary and exhibi
 
 Prof. Dr. Jamie M. Taylor. CUNEF Universidad, Madrid, Spain. (jamie.taylor@cunef.edu) 
 
-Prof. Dr. Manuela Bastidas. University of the Basque Country (UPV/EHU), Leioa, Spain. / Universidad Nacional de Colombia, Medellín, Colombia. 
+Prof. Dr. Manuela Bastidas. University of the Basque Country (UPV/EHU), Leioa, Spain. / Universidad Nacional de Colombia, Medellín, Colombia. (manumnlb@gmail.com)
 
 ## Acknowledgments
 
