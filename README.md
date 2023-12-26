@@ -22,6 +22,8 @@ https://arxiv.org/abs/2305.09578
 **A Deep Fourier Residual Method for solving PDEs using Neural Networks**
 https://arxiv.org/abs/2210.14129
 
+**Basic DFR code on keras-core** 
+https://github.com/Mathmode/PINNSandDFR_kerascore
 
 
 ## Requirements
