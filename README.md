@@ -33,6 +33,7 @@ The function $u^*$ is smooth but is mostly constant near the boundary and exhibi
 ## Authors 
 
 Prof. Dr. Jamie M. Taylor. CUNEF Universidad, Madrid, Spain. (jamie.taylor@cunef.edu) 
+
 Prof. Dr. Manuela Bastidas. University of the Basque Country (UPV/EHU), Leioa, Spain. / Universidad Nacional de Colombia, Medellín, Colombia. 
 
 ## Acknowledgments
