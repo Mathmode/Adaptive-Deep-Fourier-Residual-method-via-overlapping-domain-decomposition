@@ -23,7 +23,11 @@ This repository contains the source code implementation associated with the pape
 
 ## Examples
 
-We consider the following ODE in variational form: find $u\in H^1_0(0,\pi)$ satisfying Eq.~\eqref{eq:boundsing}, where $f$ is such that the exact solution is
+We consider the following ODE in variational form: find $u\in H^1_0(0,\pi)$ satisfying the weak formulation of Poisson's equation, i.e., 
+
+$\int_0^\pi u'(x)v'(x)-f(x)v(x)\,dx = 0 \qquad \forall v\in H^1_0(0,\pi),$
+
+where $f$ is such that the exact solution is
 $u^*(x)=x(x-\pi)\exp\left(-120\left(x-\frac{\pi}{2}\right)^2\right).$
 
 The function $u^*$ is smooth but is mostly constant near the boundary and exhibits a prominent peak and a corresponding large derivative near $x=\frac{\pi}{2}$. 
